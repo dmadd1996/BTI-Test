@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+<head>
+  <title>BTI Test Page</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial scale=1">
+  <link rel="stylesheet" href="./Assets/style.css">
+  <script src="https://kit.fontawesome.com/7d8e76c08d.js" crossorigin="anonymous"></script>
+  <style>
+    .body, .h1, .h2, .h3, .h4 {
+      font-family: 'Arial', 'Helvetica', 'sans-serif';
+    }
+
+    .row-padding img {margin-bottom: 12px;}
+
+    #main {margin-left: 120px; margin-right: 120px;}
+
+    @media only screen and (max-width: 1000px) {
+      #main {margin-left: 0px; margin-right: 0px;}}
+  </style>
+</head>
+
+<body class="black">
+
+<!--Nav bar for large screens-->
+<nav class="sidebar bar bar-block small hide-small center">
+    <!-- Avatar image in top left corner -->
+    <img src="./assets/images/BridgeWay to Independence.png" alt="small boye" style="width:100%">
+    
+    <a href="#" class="bar-item button padding-large black">
+      <i class="fa-solid fa-house large"></i>
+      <p class="body">HOME test</p>
+    </a>
+    <a href="#about" class="bar-item button padding-large hover-black">
+      <i class="fa fa-user large"></i>
+      <p class="body">Wix forms Test</p>
+    </a>
+    <a href="#apps" class="bar-item button padding-large hover-black">
+      <i class="fa-solid fa-bars-progress large"></i>
+      <p class="body">Wix animations test</p>
+    </a>
+    <a href="#contact" class="bar-item button padding-large hover-black">
+      <i class="fa fa-envelope large"></i>
+      <p class="body">CONTACT Test</p>
+    </a>
+</nav>
+
+<!-- nav bar for small screens -->
+<nav class="top hide-large" id="myNavbar">
+  <div class="h3 bar black opacity hover-opacity-off center small">
+    <a href="#" class="bar-item button" style="width:25% !important">HOME</a>
+    <a href="#about_mobile" class="bar-item button" style="width:25% !important">Wix forms test</a>
+    <a href="#apps_mobile" class="bar-item button" style="width:25% !important">Wix animations test</a>
+    <a href="#contact" class="bar-item button" style="width:25% !important">CONTACT test</a>
+  </div>
+</nav>
+
+<!--profile and name section (home anchor)-->
+<section class="padding-large" id="main">
+  <header class="h1 container padding-32 center black" id="HOME">      
+    <h1 class="jumbo"><span class="hide-medium hide-small">Welcome to the </span>BTI Test Site</h1>
+    <p style="font-size: 24px">Adjust page size to view mobile adaptation</p>
+    <a href="https://www.linkedin.com/in/williamhgates/" style="color: inherit; text-decoration: none;" target="_blank">
+      <img src="./assets/images/Minneapolis From Under Stone Arch_edited.jpg" style="width:50%" alt="big boye" class="hide-small hide-medium padding-64">
+      <img src="./Assets/images/Profile.jpg" style="width:100%" alt="big boye" class="hide-large padding-64">
+    </a>
+  </header>
+</section>
+
+<!--About me section shown on large screens-->
+<section id="about" class="hide-small hide-medium">
+  <header class="h1 center padding-64">
+    Text Header
+  </header>
+  <p class="h2 center padding-32 padding-center">lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+  <p class="h2 center padding-32 padding-center">lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+</section>
+
+<section id="about_mobile" class="hide-large">
+  <header class="h1 center padding-64">
+    Text Header
+  </header>
+  <p class="h2 center">lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+  <p class="h2 center">lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+</section>
+
+<section class="center hide-small hide-medium">
+  <header id="apps" class="h1 center padding-64">
+    Test Animations
+  </header>
+
+  <br>
+
+  <figure class="snip1321"><img src="./Assets/images/cat_caviar.jpg" style="width: 100%;" alt="PopUp Cat"/>
+    <figcaption><i class="ion-upload"></i>
+      <h1 class="jumbo">PopUp Message</h1>
+      <h2 class="h2">Linked Text Test</h2>
+    </figcaption><a href="https://www.linkedin.com/in/williamhgates/" target="_blank"></a>
+  </figure>
+
+  <br>
+  
+  <div class="row">
+    <div class="container2">
+      <img src="./Assets/images/Tune Finder.png" style="width: 280px;" alt="Music Man" class="image column" >
+      
+      <div class="overlay">
+        <div class="text h2"><a href="https://www.linkedin.com/in/williamhgates/" style="color: inherit; text-decoration: none;" target="_blank">Fade Text Grid Test</a></div>
+      </div>
+    </div>
+
+    <div class="container2">
+      <img src="./Assets/images/Twitter API.png" style="width: 280px;" alt="Twitter Cityscape" class="image column" >
+      <div class="overlay">
+        <div class="text h2"><a href="https://www.linkedin.com/in/williamhgates/" style="color: inherit; text-decoration: none;" target="_blank">Fade Text Grid Test</a></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="container2">
+      <img src="./Assets/images/Skynet.png" style="width: 280px;" alt="Skynet Icon" class="image column" >
+      <div class="overlay">
+        <div class="text h2"><a href="https://www.linkedin.com/in/williamhgates/" style="color: inherit; text-decoration: none;" target="_blank">Fade Text Grid Test</a></div>
+      </div>
+    </div>
+
+    <div class="container2">
+      <img src="./Assets/images/CloudGrocer.png" style="width: 280px;" alt="Basket of Groceries" class="image column" >
+      <div class="overlay">
+        <div class="text h2"><a href="https://www.linkedin.com/in/williamhgates/" style="color: inherit; text-decoration: none;" target="_blank">Fade Text Grid Test</a></div>
+      </div>
+    </div>
+  </div>
+
+</section>	
+
+<!--APPS section for mobile screens-->
+<section class="hide-large center" id="apps_mobile">
+  <header id="apps" class="h1 center padding-64">
+    MY APPS
+  </header>
+
+  <br>
+
+  <div>
+    <div class="container2">
+      <img src="./assets/images/cat_caviar.jpg" style="width: 280px;" alt="Weather App Phone" class="image column">
+      <div class="overlay">
+        <div class="text h2"><a href="https://www.linkedin.com/in/williamhgates/" style="color: inherit; text-decoration: none;" target="_blank">Fade Text Grid Test</a></div>
+      </div>
+    </div>
+
+    <div class="container2">
+      <img src="./Assets/images/Tune Finder.png" style="width: 280px;" alt="Music Man" class="image column" >
+      <div class="overlay">
+        <div class="text h2"><a href="https://www.linkedin.com/in/williamhgates/" style="color: inherit; text-decoration: none;" target="_blank">Fade Text Grid Test</a></div>
+      </div>
+    </div>
+
+    <div class="container2">
+      <img src="./Assets/images/Twitter API.png" style="width: 280px;" alt="Twitter Cityscape" class="image column" >
+      <div class="overlay">
+        <div class="text h2"><a href="https://www.linkedin.com/in/williamhgates/" style="color: inherit; text-decoration: none;" target="_blank">Fade Text Grid Test</a></div>
+      </div>
+    </div>
+  
+    <div class="container2">
+      <img src="./Assets/images/Skynet.png" style="width: 280px;" alt="Skynet Icon" class="image column" >
+      <div class="overlay">
+        <div class="text h2"><a href="https://www.linkedin.com/in/williamhgates/" style="color: inherit; text-decoration: none;" target="_blank">Fade Text Grid Test</a></div>
+      </div>
+    </div>
+
+    <div class="container2">
+      <img src="./Assets/images/CloudGrocer.png" style="width: 280px;" alt="Basket of Groceries" class="image column" >
+      <div class="overlay">
+        <div class="text h2"><a href="https://www.linkedin.com/in/williamhgates/" style="color: inherit; text-decoration: none;" target="_blank">Fade Text Grid Test</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <br>
+
+  <div class="padding-64 content text-gray center" id="contact">
+    <h2 class="h1 text-light-gray">Contact Me</h2>
+    <hr style="width:200px" class="opacity">
+
+    <div class="section center">
+      <p><i class="fa fa-map-marker fa-fw large margin-right"></i> Minneapolis, US</p>
+      <p><i class="fa fa-phone fa-fw large margin-right"></i> Phone: +00 151515</p>
+      <p><i class="fa fa-envelope fa-fw large margin-right"> </i> Email: mail@mail.com</p>
+    </div><br>
+
+</body>
+
+</html>
